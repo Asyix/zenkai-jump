@@ -1,6 +1,3 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 echo "🔍 Running linters and type checking..."
 
 # Run linting, formatting, and type checks
