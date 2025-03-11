@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🚀 Running tests before pushing..."
+npm run test
+
+echo "🏗️ Checking Next.js build..."
+npm run build
